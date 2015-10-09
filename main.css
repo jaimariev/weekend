@@ -37,9 +37,9 @@ h1{
 	font-size: 47px;
 }
 
-.tabs {
-	margin: 30px;
-	padding-left:120px;
+.container {
+	width: 920px;
+	margin: auto;
 	position: relative;
 }
 
@@ -50,11 +50,15 @@ h1{
 	background: #65A665;
 	color: white;
 	text-align: center;
+	border-right: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
 	box-sizing: border-box;
-	width: 300px;
+	width: 290px;
 	height: 190px;
 	padding: 25px 50px 20px 50px;
-	margin: 10px 10px 0px 10px;
+	margin-right: 20px;
+	margin-bottom: 0px;
 }
 
 .tab2 {
@@ -64,11 +68,15 @@ h1{
 	color: white;
 	text-align: center;
 	float: left;
+	border-right: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
 	box-sizing: border-box;
-	width: 300px;
+	width: 290px;
 	height: 190px;
 	padding: 25px 50px 20px 50px;
-	margin: 10px;
+	margin-right: 20px;
+	margin-bottom: 0px;
 }
 
 .tab3 {
@@ -78,11 +86,14 @@ h1{
 	color: white;
 	text-align: center;
 	float: left;
+	border-right: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
 	box-sizing: border-box;
-	width: 300px;
+	width: 290px;
 	height: 190px;
 	padding: 25px 50px 20px 50px;
-	margin: 10px;
+	margin-bottom: 0px;
 }
 
 h2 {
@@ -98,44 +109,47 @@ h3 {
 	opacity: 0.4;
 }
 
-.options {
-	margin: 0px;
-	position: relative;
-}
-
-.options ul {
-	background: #e8e8e8;
-	height: 300px;
-	border-right: 1px solid #d8d8d8;
-	border-left: 1px solid #d8d8d8;
-}
-
-.options li {
-	padding-bottom: 15px;
-	border-bottom: 1px solid #d8d8d8;
-	font-size: 14px
+.option:after{
+	content:"";
+	display:block;
+	clear:both;
 }
 
 .option1 {
 	list-style:none;
-	display:block;
 	float: left;
 	text-align: center;
-	box-sizing: border-box;
-	width: 300px;
-	height: 190px;
-	margin: -10px 0px 0px 160px;
-	padding:0px;
+	height: 400px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.option li {
+	border-bottom: 1px solid #d8d8d8;	
+	border-right: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+	font-size: 14px;
+	width: 267px;
+	padding: 10px;
+	background: #f7f7f7;
 }
 
 .option2 {
 	list-style:none;
-	display:block;
 	float: left;
 	text-align: center;
-	box-sizing: border-box;
-	width: 300px;
-	height: 190px;
-	margin: -10px 0px 0px 20px;
+	height: 400px;
 	padding: 0px;
+	padding-left: 21px;
+	margin: 0px;
+}
+
+.option3 {
+	list-style:none;
+	float: left;
+	text-align: center;
+	height: 400px;
+	padding: 0px;
+	padding-left: 22px;
+	margin: 0px;
 }
