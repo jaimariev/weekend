@@ -97,3 +97,44 @@ h3 {
 	color: #f0f0f0;
 	opacity: 0.4;
 }
+
+.options{
+	margin: 0px;
+	padding-left: 150px;
+}
+
+.option1 {
+	list-style:none;
+	display:block;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	width: 310px;
+	height: 190px;
+	padding: 0px 50px 0px 50px;
+	margin: 10px;
+}
+
+.option2 {
+	list-style:none;
+	display:block;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	width: 310px;
+	height: 190px;
+	padding: 2px 50px 0px 50px;
+	margin: 10px;
+}
+
+.option3 {
+	list-style:none;
+	display:block;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	width: 310px;
+	height: 190px;
+	padding: 0px 50px 0px 50px;
+	margin: 10px;
+}
