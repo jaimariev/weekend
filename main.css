@@ -40,7 +40,6 @@ h1{
 .tabs {
 	margin: 30px;
 	padding-left:120px;
-
 }
 
 .tab1 {
@@ -54,7 +53,7 @@ h1{
 	width: 310px;
 	height: 190px;
 	padding: 25px 50px 20px 50px;
-	margin: 10px;
+	margin: 10px 10px 0px 10px;
 }
 
 .tab2 {
@@ -98,9 +97,19 @@ h3 {
 	opacity: 0.4;
 }
 
-.options{
+.options {
 	margin: 0px;
-	padding-left: 150px;
+}
+
+.options ul {
+	background: #e8e8e8;
+	height: 222px;
+	border-right: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+}
+
+.options li {
+	border-bottom: 1px solid #d8d8d8;
 }
 
 .option1 {
@@ -111,8 +120,8 @@ h3 {
 	box-sizing: border-box;
 	width: 310px;
 	height: 190px;
-	padding: 0px 50px 0px 50px;
-	margin: 10px;
+	margin: -10px 0px 0px 160px;
+	padding:0px;
 }
 
 .option2 {
@@ -123,8 +132,8 @@ h3 {
 	box-sizing: border-box;
 	width: 310px;
 	height: 190px;
-	padding: 2px 50px 0px 50px;
-	margin: 10px;
+	margin: -10px 0px 0px 20px;
+	padding: 0px;
 }
 
 .option3 {
@@ -135,6 +144,6 @@ h3 {
 	box-sizing: border-box;
 	width: 310px;
 	height: 190px;
-	padding: 0px 50px 0px 50px;
-	margin: 10px;
+	margin: -10px 0px 0px 20px;
+	padding: 0px 0px 2px 0px;
 }
