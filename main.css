@@ -120,7 +120,7 @@ h3 {
 	list-style:none;
 	float: left;
 	text-align: center;
-	height: 265px;
+	height: 260px;
 	padding: 0px;
 	margin: 0px;
 }
@@ -140,7 +140,7 @@ h3 {
 	list-style:none;
 	float: left;
 	text-align: center;
-	height: 265px;
+	height: 260px;
 	padding: 0px;
 	padding-left: 21px;
 	margin: 0px;
@@ -150,14 +150,14 @@ h3 {
 	list-style:none;
 	float: left;
 	text-align: center;
-	height: 265px;
+	height: 260px;
 	padding: 0px;
 	padding-left: 22px;
 	margin: 0px;
  }
  .button {
  	float:left;
-	width: 285px;
+	width: 900px;
 	margin: 10px;
 	padding: 0px;
 	padding-left: 100px;
@@ -171,3 +171,26 @@ h3 {
  	background: none;
  	font-weight: bold;
  }
+
+ .button:after {
+ 	content:"";
+ 	display: block;
+ 	clear: both;
+ }
+
+ .button1 {
+	float: left;
+	margin: 0px;
+	border: 1px solid #d8d8d8;
+ }
+
+ .button2 {
+ 	float: left;
+ 	margin-left: 220px;
+ }
+
+ .button3 {
+ 	float: left;
+ 	margin-left: 30px;
+ }
+
