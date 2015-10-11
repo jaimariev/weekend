@@ -156,59 +156,58 @@ h3 {
 	padding: 0px;
 	padding-left: 22px;
 	margin: 0px;
- }
- .button {
+}
+.button {
  	float:left;
 	width: 900px;
 	margin: 10px;
 	padding: 0px;
 	padding-left: 100px;
- }	
+}	
 
- button {
+button {
  	border: 1px solid #d8d8d8;
  	border-radius: 30px;
  	padding: 8px 12px 8px 12px;
  	margin: auto;
  	background: none;
  	font-weight: bold;
- }
+}
 
- .button1 {
+.button1 {
 	float: left;
 	margin: 0px;
- }
+}
 
- .button2 {
+.button2 {
  	float: left;
  	margin-left: 220px;
- }
+}
 
- .button3 {
+.button3 {
  	float: left;
  	margin-left: 30px;
- }
+}
 
- .paragraph {
+.paragraph {
  	width: 380px;
  	padding-left: 15px;
  	margin: 0px;
- }
+}
 
- h4 {
+h4 {
  	margin: 0px;
  	padding:0px;
- }
+}
 
- h4 p{
+h4 p{
 	float: left;
- }
+}
 
- .footer {
+.footer {
  	background: black;
  	color: white;
  	text-align: center;
  	height: 80px;
  	margin: auto;
- }
-
+}
