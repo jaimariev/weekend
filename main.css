@@ -12,8 +12,10 @@ html{
 	float:left;
 	list-style: none;
 	font-size:15px;
+	color: gray;
 	padding-left: 30px;
 }
+
 .menu{
 	margin: 0px;
 	padding: 0px;
@@ -172,16 +174,9 @@ h3 {
  	font-weight: bold;
  }
 
- .button:after {
- 	content:"";
- 	display: block;
- 	clear: both;
- }
-
  .button1 {
 	float: left;
 	margin: 0px;
-	border: 1px solid #d8d8d8;
  }
 
  .button2 {
@@ -192,5 +187,28 @@ h3 {
  .button3 {
  	float: left;
  	margin-left: 30px;
+ }
+
+ .paragraph {
+ 	width: 380px;
+ 	padding-left: 15px;
+ 	margin: 0px;
+ }
+
+ h4 {
+ 	margin: 0px;
+ 	padding:0px;
+ }
+
+ h4 p{
+	float: left;
+ }
+
+ .footer {
+ 	background: black;
+ 	color: white;
+ 	text-align: center;
+ 	height: 80px;
+ 	margin: auto;
  }
 
