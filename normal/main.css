@@ -17,7 +17,7 @@ html{
 }
 
 .menu{
-	margin: 0px;
+	margin: 10px;
 	padding: 0px;
 }
 
@@ -40,7 +40,8 @@ h1{
 }
 
 .container {
-	width: 920px;
+	width: 935px;
+	height: 600px;
 	margin: auto;
 	position: relative;
 	top: 20px;
@@ -112,17 +113,11 @@ h3 {
 	opacity: 0.4;
 }
 
-.option:after{
-	content:"";
-	display:block;
-	clear:both;
-}
-
 .option1 {
 	list-style:none;
 	float: left;
 	text-align: center;
-	height: 260px;
+	height: 258px;
 	padding: 0px;
 	margin: 0px;
 }
@@ -142,7 +137,7 @@ h3 {
 	list-style:none;
 	float: left;
 	text-align: center;
-	height: 260px;
+	height: 258px;
 	padding: 0px;
 	padding-left: 21px;
 	margin: 0px;
@@ -152,68 +147,65 @@ h3 {
 	list-style:none;
 	float: left;
 	text-align: center;
-	height: 260px;
+	height: 258px;
 	padding: 0px;
-	padding-left: 22px;
+	padding-left: 21px;
 	margin: 0px;
 }
 
 .button {
  	float:left;
-	width: 795px;
-	margin: 10px;
-	padding: 0px;
-	padding-left: 95px;
-}	
+ 	box-sizing: border-box;
+	border-bottom: 1px solid #d8d8d8;	
+	border-right: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8;
+	width: 289px;
+	height: 90px;
+	margin-right: 21px;
+	padding: 14px 85px 10px 90px;
+}
 
 button {
  	border: 1px solid #d8d8d8;
  	border-radius: 30px;
  	padding: 8px 12px 8px 12px;
- 	margin: auto;
+ 	margin: 10px;
  	background: none;
  	font-weight: bold;
 }
-
-.b1 {
-	float: left;
-	margin-left: 1px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-}
-
-.b2 {
- 	float: left;
-	margin-top: 10px;
- 	margin-left: 225px;
- 	margin-bottom:20px;
-}
-
 .p_container{
-	width: 850px;
-	height: 420px;
-	margin: auto;
 	position: relative;
-	top: 80px;
+	width: 870px;
+	height: 550px;
+	margin: auto;
+	top: 10px;
 }
 
-.paragraph {
-	top: 80px;
-	width: 350px;
-	display: inline;
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+h4 {
+	font-size: 18px
+}
+
+p {
+	width: 450px;
 }
 
 .footer {
  	background: black;
  	color: gray;
  	text-align: center;
- 	height: 110px;
+ 	height: 90px;
  	margin: 0px;
  	margin-top:120px;
 }
 
 footer {
-	padding-top: 48px;
+	padding-top: 40px;
 }
 
 a {
