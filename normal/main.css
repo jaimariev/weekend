@@ -200,10 +200,7 @@ button {
 .paragraph {
 	top: 80px;
 	width: 350px;
-}
-
-.p1 p{
-	float: left;
+	display: inline;
 }
 
 .footer {
