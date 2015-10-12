@@ -157,12 +157,13 @@ h3 {
 	padding-left: 22px;
 	margin: 0px;
 }
+
 .button {
  	float:left;
-	width: 900px;
+	width: 795px;
 	margin: 10px;
 	padding: 0px;
-	padding-left: 100px;
+	padding-left: 95px;
 }	
 
 button {
@@ -174,19 +175,18 @@ button {
  	font-weight: bold;
 }
 
-.button1 {
+.b1 {
 	float: left;
-	margin: 0px;
+	margin-left: 1px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
-.button2 {
+.b2 {
  	float: left;
- 	margin-left: 220px;
-}
-
-.button3 {
- 	float: left;
- 	margin-left: 30px;
+	margin-top: 10px;
+ 	margin-left: 225px;
+ 	margin-bottom:20px;
 }
 
 .paragraph {
@@ -206,8 +206,17 @@ h4 p{
 
 .footer {
  	background: black;
- 	color: white;
+ 	color: gray;
  	text-align: center;
- 	height: 80px;
- 	margin: auto;
+ 	height: 110px;
+ 	margin: 0px;
+}
+
+footer{
+	padding-top: 50px;
+	margin-top:50px;
+}
+
+a {
+	color: white;
 }
